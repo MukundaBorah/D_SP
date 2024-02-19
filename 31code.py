@@ -22,7 +22,7 @@ print("Q. 4)", null_values)
 
 # # Q5: Rename the column name 'Weather' of the dataframe to 'Weather Condition'.
 df.rename(columns={'Weather': 'Weather Condition'}, inplace=True)
-print("Q. 5)", df.columns)  x x
+print("Q. 5)", df.columns) 
 
 # Q6: What is the mean 'Visibility'?
 mean_visibility = df['Visibility_km'].mean()
